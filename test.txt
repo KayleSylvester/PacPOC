@@ -1,1 +1,16 @@
 测试文件
+修改命令：
+1、在本机添加文件，echo "测试本机与远程库" >> test.txt;
+
+2、进入PacPOC库中，输入命令：git add test.txt；
+
+3、查看文件状态，git status，则test.txt为new状态；
+
+4、提交文件到缓存区，输入命令：git commit -m “测试文件”；
+
+5、提交到远程库，输入命令：git push origin master/main;
+
+克隆命令：
+git clone https://github.com/KayleSylvester/PacPOC.git
+username:passwords
+git clone https://github.com/KayleSylvester/PacPOC.git
